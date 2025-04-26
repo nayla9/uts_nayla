@@ -1,0 +1,57 @@
+body {
+  background-color: #fdf2f8;
+  color: #831843;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0 20px;
+}
+
+.App {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #e91e63;
+  font-size: 16px;
+  resize: none;
+  margin-bottom: 10px;
+  background-color: #fff0f6;
+}
+
+button {
+  background-color: #e91e63;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #c2185b;
+}
+
+.diary-list {
+  margin-top: 30px;
+  text-align: left;
+}
+
+.entry {
+  background-color: #ffe4ec;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+.entry .date {
+  font-size: 12px;
+  color: #ad1457;
+  margin-bottom: 6px;
+}
